@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft YaHei;
+}
+nav {
+	position: fixed;
+	background-color: #2f2f2f;
+	height: 100%;
+	top: 0; left: 0;
+	z-index: 1;
+	box-shadow: 0px -10px 12px 4px #252525;
+}
+	nav a {
+		font-weight: normal;
+		font-size: 16px;
+		color: #ffffff;
+		display: block;
+		padding: 7px 15px;
+		text-decoration: none;
+	}
+	.head a:first-child {
+		box-shadow: -1px 0.5px 4px 1px #777 inset;
+		background-color: #7DBE77;
+	}
+	.head a:hover {
+			background-color: #7DBE77;
+	}
+	.head a:active {
+		box-shadow: -1px 0.5px 4px 1px #777 inset;
+		background-color: #7DBE77;
+	}
+	.login{
+		position: relative;
+		display:block;
+		top: 80%;
+		margin: 20px 0;
+	}
+	.login a{
+		display: block;
+		width: 25px;
+		height: 24px;
+		margin: 0 auto;
+	}
+	.login img{
+		border: 0px;
+	}
+header {
+	color: #fff;
+	position: fixed;
+	width: 280px;
+	background-color: #006ec0;
+	height: 100%;
+	top: 0; left: 40px;
+	background-image: url(resource/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	z-index: 0;
+	font-family: 微软雅黑;
+	box-shadow: 0px -10px 12px 4px #252525 inset;
+}
+	header h1 {
+		position: relative;
+		left: 50px;
+		top: 60%;
+		font-weight: normal;
+		font-size: 310%;
+		margin: 0 0 20px 0;
+	}
+	header h2 {
+		position: relative;
+		left: 50px;
+		top: 58%;
+		font-weight: normal;
+		font-size: 120%;
+	}
+	header a{
+		display: block;
+		position: relative;
+		left: 50px;
+		top: 60%;
+		width: 113px; height: 30px;
+		color: #fff;
+		text-decoration: none;
+		background-color: #DB46A3;
+		border-radius: 3px;
+		text-align: center;
+		line-height: 30px;
+	}
+#main {
+	background-color: #fff;
+	margin-left: 340px;
+	padding-left: 40px;
+	padding-top: 20px;
+	width: 650px;
+}
+	article {
+		width: 600px;
+		min-height: 500px;
+		font-size: 14px;
+		font-family: 微软雅黑;
+	}
+		article p{
+			margin-top: 0px;
+			margin-bottom: 0px;
+			display: inline;
+		}
+		article h1{
+			font-size: 24px;
+			font-weight: normal;
+			margin-top: 15px;
+		}
+		article h1 a{
+			text-decoration: none;
+			color: #000;
+		}
+		
+		article h1 a:active {
+			color: #1485CC;
+		}
+	.arti{
+		margin: 14px 0 14px 0;
+	}
+	.attr {
+		color: #7d7d7d;
+	}
+	.attr a {
+		color: #7d7d7d;
+		text-decoration: none;
+	}
+	.attr a:hover{
+		color: #000;
+	}
+	.attr a:active{
+		color: #7d7d7d;
+	}
+footer {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: #7d7d7d;
+}
+footer  a{
+	color: #7d7d7d;
+	text-decoration: none;
+}
